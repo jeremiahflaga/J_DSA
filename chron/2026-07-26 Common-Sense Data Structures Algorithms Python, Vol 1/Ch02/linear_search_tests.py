@@ -23,11 +23,23 @@ class Tests(unittest.TestCase):
         self.assertEqual(None, index)
 
     def test_many_element_array_returns_correct_index_if_found(self):
-        index = linear_search([2, 5, 8, 100, 9], 8)
+        index = linear_search([2, 5, 8, 9, 100], 8)
         self.assertEqual(2, index)
 
     def test_many_element_array_returns_None_if_not_found(self):
-        index = linear_search([2, 5, 8, 100, 9], 50)
+        index = linear_search([2, 5, 8, 9, 100], 50)
+        self.assertEqual(None, index)
+
+    def test_last_element(self):
+        index = linear_search([2, 5, 8, 9, 100], 100)
+        self.assertEqual(4, index)
+
+    def test_first_element(self):
+        index = linear_search([2, 5, 8, 9, 100], 2)
+        self.assertEqual(0, index)
+
+    def test_unordered_array_returns_unexpected_behavior(self):
+        index = linear_search([2, 5, 100, 8, 9], 9)
         self.assertEqual(None, index)
 
 
