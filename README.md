@@ -13,6 +13,9 @@ python <name of file containing tests>.py
 python <name of file>.py
 ```
 
+Or, if using VS Code, install Python extension, then press Ctrl + F5 to run currently opened file.
+
+
 ### Command for running python with redirected input/output:
 
 ```
