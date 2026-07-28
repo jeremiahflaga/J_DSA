@@ -1,4 +1,4 @@
-# Data Structures and Algorithm Practice
+# Data Structures and Algorithms Practice
 
 Need to regularly tackle DSA problems to exercise my mind with noticing edge cases when writing code. 
 
