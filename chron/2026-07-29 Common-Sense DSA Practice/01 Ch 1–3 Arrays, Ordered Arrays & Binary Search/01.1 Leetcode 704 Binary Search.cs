@@ -71,3 +71,12 @@ public class Tests
     }
 }
 
+/*
+#####################
+# Leetcode 704 Binary Search
+# July 29, 2026
+# Start: 08:58 PM
+# End: 11:02 PM
+# Submission Link: https://leetcode.com/problems/binary-search/submissions/2086285783/
+#####################
+*/

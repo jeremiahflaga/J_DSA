@@ -2,7 +2,7 @@ Here is the fully consolidated reference with Kattis problems added per topic:
 
 ---
 
-## A Common-Sense Guide to Data Structures and Algorithms in Python — Practice Problems
+## A Common-Sense Guide to Data Structures and Algorithms in Python, Volume 1 (CSGDSAP-Vol1) — Practice Problems
 
 ---
 
