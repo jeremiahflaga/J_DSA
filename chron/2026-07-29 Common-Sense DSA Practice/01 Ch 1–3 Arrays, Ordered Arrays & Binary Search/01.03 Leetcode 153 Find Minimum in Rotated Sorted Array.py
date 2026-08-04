@@ -44,18 +44,17 @@ class Solution:
             if midpoint < nums_length:
                 right_neighbor_value = nums[midpoint + 1]
 
-                # optimization; short-circuit if RIGHT neighbor is less than midpoint value
-                # because that means you found that min value of the sorted array before the 
-                # rotation was made
+                # if RIGHT neighbor is less than midpoint value, that means you found 
+                # that min value of the sorted array before the rotation was made
                 if (value_at_midpoint > right_neighbor_value):
                     return right_neighbor_value
                 
             if midpoint > 0:
                 left_neighbor_value = nums[midpoint - 1]
 
-                # optimization; short-circuit if LEFT neighbor is greater than midpoint value
-                # because that means you found that min value of the sorted array before the 
-                # rotation was made: the min is the value at the midpoint
+                # if LEFT neighbor is greater than midpoint value, that means you found 
+                # that min value of the sorted array before the rotation was made: 
+                # the min is the value at the midpoint
                 if (left_neighbor_value > value_at_midpoint):
                     return value_at_midpoint
 
