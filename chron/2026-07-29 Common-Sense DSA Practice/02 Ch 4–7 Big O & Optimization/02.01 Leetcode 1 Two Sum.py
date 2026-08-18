@@ -14,8 +14,9 @@
 #   - 
 
 # End: 11:30 PM
-# Result: WRONG answer, because sorting the nums array in place destroys the original indices of the items
+# Result: WRONG answer (9 / 65 testcases passed), because sorting the nums array in place destroys the original indices of the items
 # Test case on Leetcode: nums = [3,2,4] , target = 6
+# Submission Link: https://leetcode.com/problems/two-sum/submissions/2100526076/
 #####################
 #
 # 2nd solution:
