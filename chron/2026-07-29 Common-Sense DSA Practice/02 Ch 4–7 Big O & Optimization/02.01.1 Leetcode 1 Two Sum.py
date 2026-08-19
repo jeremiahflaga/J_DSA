@@ -27,7 +27,15 @@
 # so that this search becomes faster?
 #
 # Need to try brute force next time
-# And after doing brute force, write solution on paper first
+# And after doing brute force, write solution on paper first before coding.
+#   (Remember this rule which you learned from first-hand experience when you were starting out with solving DSA problems.
+#    You can think more clearly when writing on paper.
+#    It was also mentioned in Cracking the Coding Interview 6th edition book by Gayle Laakmann McDowell;
+#       on page 60: 
+#       "Write the code on paper." 
+#       then 
+#       "Test your code -- on paper".
+#    Remember "When you write on paper, you write on your mind" from The Magic of Thinking Big)
 
 from bisect import bisect_left
 from typing import List
