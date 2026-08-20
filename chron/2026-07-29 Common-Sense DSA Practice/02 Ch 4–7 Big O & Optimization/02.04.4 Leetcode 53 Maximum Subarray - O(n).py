@@ -102,7 +102,7 @@ class Tests(unittest.TestCase):
     def test_negatives_with_zero(self):
         soln = Solution()
         result = soln.maxSubArray([-1,-2,0])
-        self.assertEqual(-1, result)
+        self.assertEqual(0, result)
 
 
 
