@@ -1,6 +1,6 @@
 #####################
 # Leetcode 217 Contains Duplicate
-# https://leetcode.com/problems/missing-number/description/
+# https://leetcode.com/problems/contains-duplicate/description/
 
 # Aug 20, 2026
 # Start: 9:44 PM
