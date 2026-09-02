@@ -3,7 +3,7 @@
 # https://leetcode.com/problems/maximum-subarray/description/
 
 # Aug 20, 2026
-# Start: 11:23
+# Start: 11:23 PM
 
 # 5th attempt: 
 #   - (see note on previous attempt with wrong answer for input nums = [-2,-1])

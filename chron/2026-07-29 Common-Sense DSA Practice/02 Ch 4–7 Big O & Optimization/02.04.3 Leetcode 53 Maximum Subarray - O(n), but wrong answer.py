@@ -3,7 +3,7 @@
 # https://leetcode.com/problems/maximum-subarray/description/
 
 # Aug 20, 2026
-# Start: 10:40
+# Start: 10:40 PM
 
 # 4th attempt: 
 #   introduce a break or short circuit at relevant points.
