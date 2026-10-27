@@ -1,4 +1,7 @@
-.vscode
+.vscode/*
+
+# include .vscode/settings.json, so that AI agents (Copilot) are disabled in this project
+!.vscode/settings.json
 
 *.exe
 
