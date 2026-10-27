@@ -29,6 +29,7 @@ class Solution:
 
         # sort dictionary by value, in desc order
         sorted_d = dict(sorted(d.items(), key=lambda item: item[1], reverse=True))
+        # NOTE: Oct 24 - no need to put them back into a dictionary(?)
 
         top_k = []
         idx = 1
